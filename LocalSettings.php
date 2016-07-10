@@ -500,6 +500,7 @@ $wgConf->settings = array(
 		'default' => false,
 		'extloadwiki' => true,
 		'partupwiki' => true,
+		'wisdomwikiwiki' => true,
 	),
 	'wmgUseAdminLinks' => array(
 		'default' => false,
@@ -521,6 +522,7 @@ $wgConf->settings = array(
 		'tochkiwiki' => true,
 		'touhouenginewiki' => true,
 		'walthamstowlabourwiki' => true,
+		'wisdomwikiwiki' => true,
 		'yggdrasilwiki' => true,
 	),
 	'wmgUseAJAXPoll' => array(
@@ -547,6 +549,7 @@ $wgConf->settings = array(
 		'aucelewiki' => true,
 		'extloadwiki' => true,
 		'umodwiki' => true,
+		'wisdomwikiwiki' => true,
 	),
 	'wmgUseCategoryTree' => array(
 		'default' => true,
@@ -601,6 +604,7 @@ $wgConf->settings = array(
 		'heistwiki' => true,
 		'hydrawikiwiki' => true,
 		'walthamstowlabourwiki' => true,
+		'wisdomwikiwiki' => true,
 	),
 	'wmgUseEchoThanks' => array(
 		'default' => true,
@@ -736,6 +740,7 @@ $wgConf->settings = array(
 		'universebuildwiki' => true,
 		'webflowwiki' => true,
 		'whentheycrywiki' => true,
+		'wisdomwikiwiki' => true,
 	),
 	'wmgUseMultimediaViewer' => array(
 		'default' => false,
@@ -820,6 +825,7 @@ $wgConf->settings = array(
 		'allthetropeswiki' => true,
 		'extloadwiki' => true,
 		'idtestwiki' => true,
+		'wisdomwikiwiki' => true,
 	),
 	'wmgUseScratchBlocks' => array(
 		'default' => false,
@@ -911,6 +917,7 @@ $wgConf->settings = array(
 		'allthetropeswiki' => true,
 		'developmentwiki' => true,
 		'extloadwiki' => true,
+		'wisdomwikiwiki' => true,
 	),
 	'wmgUseSimpleTooltip' => array(
 		'default' => false,
@@ -1219,6 +1226,7 @@ $wgConf->settings = array(
 		'forexwiki' => '_blank',
 		'sylwiki' => '_blank',
 		'vrgowiki' => '_blank',
+		'wisdomwikiwiki' => '_blank',
 	),
 
 	// Files
@@ -1657,6 +1665,8 @@ $wgConf->settings = array(
 		'+wisdomwikiwiki' => array(
 			NS_MAIN => true,
 			NS_LCS => true,
+			NS_LIBRARY => true,
+			NS_TEACHING => true,
 		)
 	),
 
